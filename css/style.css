@@ -9,20 +9,64 @@
     margin: 0 auto;
 }
 
-/* HEADER LAYOUT */
-.h-row{
-    height: 100px;
-    width: 100%;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
+/* UTILITIES */
+
+ul{
+    list-style-type: none;
 }
 
-.h-col-50{
-    border: 1px solid black;
-    width: 50%;
+a{
+    text-decoration:none;
+    color: black;
+}
+
+.blue-button{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border:1px solid blue;
+}
+/* FINE UTILITIES */
+/* HEADER LAYOUT */
+.h-row{
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+}
+
+.h-col-45{
+    /* border: 1px solid black; */
+    width: 45%;
+}
+
+.h-col-10{
+    width: 10%;
+    /* border:1px solid black; */
 }
 /* FINE HEADER LAYOUT */
+/* CONTENUTO HEADER */
+.h-link, .h-logo{
+    display: inline-block;
+}
+
+.h-li{
+    display:inline;
+    padding: 15px;
+}
+
+.h-right{
+    display: flex;
+    justify-content: right;
+}
+
+
+
+/* FINE CONTENUTO HEADER */
 /* JUMBOTRON LAYOUT */
 .jumb-background{
     background-color: lightgrey;
@@ -45,14 +89,42 @@
     height: 400px;
     width: 30%;
     background-color: lightcyan;
+    position: relative;
+    /* padding-top:30px; */
 }
 
 .jumb-col-70{
     height: 400px;
     width: 70%;
     background-color: lightgreen;
+    position: relative;
 }
 /* FINE JUMBOTRON LAYOUT */
+/* CONTENUTO JUMBOTRON */
+#main-title{
+    font-size: 50px;
+}
+
+.jumb-main-text{
+    margin:40px 0;
+}
+
+#jumb-button{
+    margin-bottom: 40px;
+}
+
+.fa-arrow-down{
+    position:absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+#jumb-img{
+    width: 100%;
+    position: relative;
+    /* top: 70px; */
+}
+/* FINE CONTENUTO JUMBOTRON */
 /* LAYOUT PRIMA SEZIONE */
 .first-sec-row{
     height: 700px;

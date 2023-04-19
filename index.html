@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/style.css">
         <title>Dropbox</title>
     </head>
@@ -11,8 +12,47 @@
         <!-- header con due colonne fixed -->
         <header>
             <div class="h-row">
-                <div class="h-col-50"></div>
-                <div class="h-col-50"></div>
+                <div class="h-col-10">
+                    <div class="h-logo">
+                        <img src="./img/logo-small.png" alt="">
+                    </div>
+                </div>
+                <div class="h-col-45">
+                    <div class="h-content">
+                       
+                        <div class="h-link">
+                            <ul>
+                                <li class="h-li">
+                                    <a href="#">Perchè Dropbox</a>
+                                </li>
+                                <li class="h-li">
+                                    <a href="#">Funzioni</a>
+                                </li>
+                                <li class="h-li">
+                                    <a href="#">Piani e Prezzi</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-col-45 h-right">
+                    <div class="h-link">
+                        <ul>
+                            <li class="h-li">
+                                <a href="#">Supporto</a>
+                            </li>
+                            <li class="h-li">
+                                <a href="#">Contatta l'ufficio vendite</a>
+                            </li>
+                            <li class="h-li">
+                                <a href="#">Accedi</a>
+                            </li>
+                            <li class="h-li">
+                                <button class="blue-button">inizia</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- main con jumbotron e sette sezioni -->
@@ -20,9 +60,28 @@
             <!-- sezione jumbotron -->
             <div class="jumb-background">
                 <div class="jumb-row container">
-                    <div class="jumb-col-100"></div>
-                    <div class="jumb-col-30"></div>
-                    <div class="jumb-col-70"></div>
+                    <div class="jumb-col-100">
+                        <div>
+                            <h1 id="main-title">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                        </div>
+                    </div>
+                    <div class="jumb-col-30">
+                        <div class="jumb-main-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi aut asperiores magni quisquam temporibus? Mollitia omnis est magni quisquam aliquam dolores ad corrupti hic, blanditiis, nobis sit sequi beatae?</p>
+                        </div>
+                        <div>
+                            <button class="blue-button" id="jumb-button">Inizia la tua prova gratuita</button>
+                        </div>
+                        <div>
+                            <span>Annulla in qualsiasi momento</span>
+                            <i class="fa-solid fa-arrow-down fa-2xl" style="color: #000000;"></i>
+                        </div>
+                    </div>
+                    <div class="jumb-col-70">
+                        <div>
+                            <img src="./img/jumbo.png" alt="" id="jumb-img">
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- fine sezione jumbotron -->
