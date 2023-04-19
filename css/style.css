@@ -434,22 +434,36 @@ a{
 
 
 .seventh-sec-row{
-    height: 600px;
-    background-color: rgb(255, 193, 117);
+    /* height: 600px;
+    background-color: rgb(255, 193, 117); */
     display: flex;
     flex-direction: column;
+    margin-bottom: 150px;
 }
 
 .seventh-sec-col-100{
-    height: 200px;
-    background-color: bisque;
-    border: 1px solid black;
+    /* height: 200px; */
+    /* background-color: bisque; */
+    /* border: 1px solid black; */
     width: 100%;
+    border-bottom: 1px solid black;
 }
 /* FINE LAYOUT SETTIMA SEZIONE */
+/* STILE CONTENUTO SETTIMA SEZIONE */
+#seventh-sec-title{
+    margin:150px 0 60px;
+}
+
+.seventh-sec-content{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    margin: 30px 0;
+}
+/* FINE STILE CONTENUTO SETTIMA SEZIONE */
 /* LAYOUT FOOTER */
 footer{
-    height: 200px;
+    /* height: 400px; */
     background-color: black;
 }
 
@@ -461,11 +475,43 @@ footer{
 .footer-row{
     display: flex;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .footer-col-20{
-    width: 20%;
+    width:20%;
     height: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    color: white;
+}
+
+.footer-col-100{
+    width: 100%;
+    margin: 0 0 40px 0;
+    /* height: 100px; */
+    /* border: 1px dashed white; */
 }
 /* FINE LAYOUT FOOTER */
+/* STILE CONTENUTO FOOTER */
+.footer-col-content h3{
+    margin:80px 0 30px;
+}
+
+.footer-col-content ul{
+    line-height: 2;
+    margin-bottom: 80px;
+}
+
+.footer-col-content hr{
+    width:130px;
+    border-color: white;
+}
+.region-selector{
+    color: rgb(151, 151, 151);
+    margin-top: 40px;
+}
+
+.fa-earth-americas, .region-selector span{
+    margin-right: 10px;
+}
+/* FINE STILE CONTENUTO FOOTER */
