@@ -289,47 +289,115 @@ a{
 /* FINE STILE CONTENUTO TERZA SEZIONE */
 /* LAYOUT QUARTA SEZIONE */
 .fourth-sec-row{
-    height: 350px;
-    background-color:brown;
+    /* height: 350px;
+    background-color:brown; */
+    margin:150px 0 100px 0;
 }
 
 .fourth-sec-col-60{
     width: 60%;
-    height: 350px;
-    background-color: rgb(53, 12, 12);
+    /* height: 350px;
+    background-color: rgb(53, 12, 12); */
 }
 /* FINE LAYOUT QUARTA SEZIONE */
 /* STILE CONTENUTO QUARTA SEZIONE */
+#fourth-sec-h2{
+    margin-bottom:30px;
+}
 
 /* FINE STILE CONTENUTO QUARTA SEZIONE */
 /* LAYOUT QUINTA SEZIONE */
 .fifth-sec-row{
-    height: 500px;
-    background-color: rgb(245, 245, 124);
+    /* height: 500px; */
+    /* background-color: rgb(245, 245, 124); */
     width: 100vw;
     display: flex;
 }
 
 .fifth-sec-subrow{
-    height: 500px;
-    background-color: rgb(183, 111, 250);
+    /* height: 500px; */
+    /* background-color: rgb(183, 111, 250); */
     display: flex;
     flex-wrap: wrap;
 }
 
 .fifth-sec-col-33{
-    height: 500px;
+    /* height: 500px; */
     width: calc(100% / 3);
-    border: 1px solid black;  
+    /* border: 1px solid black;   */
+    background-color: #F5F5F5;
 }
 
 .fifth-sec-subcol-50{
     width:calc(100% / 2);
-    height: 50%;
+    /* height: 100%;
     background-color: rgb(82, 0, 158);
-    border: 1px dashed green;
+    border: 1px dashed green; */
 }
 /* FINE LAYOUT QUINTA SEZIONE */
+/* STILE CONTENUTO QUINTA SEZIONE */
+.fifth-sec-subcol-50{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner-img{
+   width: 300px;
+   height: 250px;
+   filter: brightness(0) invert(1);
+   padding: 70px;
+}
+
+.fifth-sec-mid-content{
+    margin: 50px 30px;
+}
+
+#designit-logo{
+    width: 300px;
+}
+
+.fifth-sec-mid-content hr{
+    width:120px;
+    margin: 30px 0;
+}
+
+#written-by{
+    margin-top: 30px;
+}
+
+#designit{
+    background-color: #A2D39B;
+}
+
+#arizona{
+    background-color: #61082B;
+}
+
+#florida-uni{
+    background-color: #0093CE;
+}
+
+#topps{
+    background-color: #FF1C1C;
+}
+
+#bicycle{
+    background-color: #D5001F;
+}
+
+#hearst{
+    background-color: #B4D0E8;
+}
+
+#lonely{
+    background-color: #0D2481;
+}
+
+#clear{
+    background-color: #FFD830;
+}
+/* FINE STILE CONTENUTO QUINTA SEZIONE */
 /* LAYOUT SESTA SEZIONE */
 .sixth-sec-row{
     height: 250px;
