@@ -5,6 +5,10 @@
     
 }
 
+/* html{
+    scroll-behavior: smooth;
+} */
+
 body{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -28,10 +32,14 @@ a{
 
 .blue-button{
     background-color: #0061FF;
-    color: white;
     padding: 10px 15px;
+    color: white;
     border:1px solid #0061FF;
     font-size: 19px;
+}
+
+.blue-button a{
+    color: white;
 }
 
 .blue-link{
@@ -75,7 +83,7 @@ a{
 
 .h-li{
     display:inline;
-    padding: 15px;
+    padding: 24px;
 }
 
 .h-right{
@@ -83,6 +91,39 @@ a{
     justify-content: right;
 }
 
+.dropdown-navbar{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-navbar-content li{
+    padding: 15px;
+}
+
+.dropdown-navbar-content{
+    display: none;
+    position: absolute;
+    background-color: #F5F5F5;
+    min-width: 100px;
+    margin-top:25px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.dropdown-navbar:hover{
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #020202;
+}
+
+.dropdown-navbar-content li:hover{
+    border-bottom: 1px solid black;
+    background-color:#bdbdbd73;
+}
+
+.dropdown-navbar:hover .dropdown-navbar-content{
+    display: block;
+}
 /* FINE STILE CONTENUTO HEADER */
 /* JUMBOTRON LAYOUT */
 .jumb-background{
@@ -114,6 +155,7 @@ a{
     width: 70%;
     position: relative;
 }
+
 /* FINE JUMBOTRON LAYOUT */
 /* STILE CONTENUTO JUMBOTRON */
 #main-title{
@@ -134,6 +176,12 @@ a{
     position:absolute;
     left: 0;
     bottom: 30px;
+    padding: 30px 20px;
+    border-radius: 50%;
+}
+
+.fa-solid:hover{
+    background-color: #8dbadf50;
 }
 
 #jumb-img{
