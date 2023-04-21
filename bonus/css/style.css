@@ -5,9 +5,9 @@
     
 }
 
-/* html{
+html{
     scroll-behavior: smooth;
-} */
+}
 
 body{
     font-size: 16px;
@@ -38,6 +38,11 @@ a{
     font-size: 19px;
 }
 
+.blue-button:hover{
+    background-color: #013486;
+    border: 1px solid #00112c;
+}
+
 .blue-button a{
     color: white;
 }
@@ -53,6 +58,10 @@ a{
     padding: 10px 15px;
     border: 1px solid white;
     font-size: 19px;
+}
+
+.white-button:hover{
+    box-shadow: 5px 5px 5px 2px #a3a2a2;
 }
 /* FINE UTILITIES */
 /* HEADER LAYOUT */
@@ -109,6 +118,7 @@ a{
     left: 0;
     right: 0;
     text-align: center;
+    font-size: 15px;
 }
 
 .dropdown-navbar:hover{
@@ -119,6 +129,7 @@ a{
 .dropdown-navbar-content li:hover{
     border-bottom: 1px solid black;
     background-color:#bdbdbd73;
+    font-weight: bold;
 }
 
 .dropdown-navbar:hover .dropdown-navbar-content{
@@ -233,8 +244,45 @@ a{
     margin-bottom: 30px;
 }
 
-.first-sec-form span{
-    margin:0 30px 30px 0;
+.inline-block span{
+    margin-right: 25px;
+    padding: 5px;
+    position: relative;
+    bottom: 4px;
+}
+
+.radio-button{
+    appearance: none;
+    width: 19px;
+    height: 19px ;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    background-color: white;
+    margin: 0;
+}
+
+.radio-button::before{
+    content: '';
+    width: 19px;
+    height: 19px;
+    transform: scale(0);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 4px #0061FF;
+    border: 1px solid #0061FF;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.radio-button:checked::before{
+    transform: scale(1);
+}
+
+.radio-button:focus{
+    inset-inline: max(5px);
 }
 
 .upper-icon{
@@ -564,6 +612,38 @@ a{
     padding-right: 30px;
     margin: 30px 0;
     font-weight: bold;
+}
+
+.faq-dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.faq-dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    left: 0;
+    right: 0;
+    padding: 30px 20px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #9A9A9A;
+    margin-top: 25px;
+    z-index: 150;
+}
+
+.faq-dropdown:hover{
+    background-color: #F5F5F5;
+}
+
+.faq-dropdown:hover .faq-dropdown-content{
+    display: block;
+}
+
+.faq-dropdown-content span{
+    padding-top: 30px;
+    font-weight: 400;
+    display: block;
 }
 /* FINE STILE CONTENUTO SETTIMA SEZIONE */
 /* LAYOUT FOOTER */

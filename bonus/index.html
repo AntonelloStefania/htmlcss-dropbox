@@ -115,7 +115,7 @@
                                 <a href="#free">Accedi</a>
                             </li>
                             <li class="h-li">
-                                <button class="blue-button"><a href="#free">inizia</a></button>
+                                <button type="button" onclick="location.href='#free'" class="blue-button">inizia</button>
                             </li>
                         </ul>
                     </div>
@@ -137,7 +137,7 @@
                             <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
                         </div>
                         <div>
-                            <button class="blue-button" id="jumb-button"> <a href="#partner">Inizia la tua prova gratuita</a></button>
+                            <button type="button" onclick="location.href='#partner'" class="blue-button" id="jumb-button">Inizia la tua prova gratuita</button>
                         </div>
                         <div>
                             <span>Annulla in qualsiasi momento</span>
@@ -158,10 +158,21 @@
                     <div class="first-sec-col-100 first-sec-form">
                         <!-- h2 e radio-buttons -->
                         <h2>Trova il piano business che fa per te</h2>
-                        <input type="radio" name="Fatturazione">
-                        <span>Fatturazione mensile</span>
-                        <input type="radio" name="Fatturazione">
-                        <span>Fatturazione annuale</span>
+                        <div>
+                            <div class="inline-block">
+                                <input type="radio" name="radio1" class="radio-button">
+                            </div>
+                            <div class="inline-block">
+                                <span>Fatturazione mensile</span>
+                            </div>
+                               
+                            <div class="inline-block">
+                                <input type="radio" name="radio1" class="radio-button">
+                            </div>
+                            <div class="inline-block">
+                                <span>Fatturazione annuale</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="first-sec-col-33">
                         <div class="upper-container">
@@ -207,8 +218,8 @@
                                 </ul>
                             </div>
                             <div class="try-or">
-                                <button class="blue-button try-button">
-                                    <a href="">Prova gratis per 30 giorni</a>
+                                <button type="button" onclick="location.href='#free'" class="blue-button try-button">
+                                    Prova gratis per 30 giorni
                                 </button>
                                 <span>oppure <a href="#free" class="blue-link"> acquista ora</a></span>
                             </div>
@@ -282,8 +293,8 @@
                                 </ul>
                             </div>
                             <div class="try-or">
-                                <button class="blue-button try-button">
-                                    <a href="">Prova gratis per 30 giorni</a>
+                                <button type="button" onclick="location.href='#free'" class="blue-button try-button">
+                                    Prova gratis per 30 giorni
                                 </button>
                                 <span>oppure <a href="#free" class="blue-link"> acquista ora</a></span>
                             </div>
@@ -382,8 +393,8 @@
                             </div>
     
                             <div class="try-or">
-                                <button class="blue-button try-button">
-                                    <a href="">Contattaci</a>
+                                <button type="button" onclick="location.href='#contatti'" class="blue-button try-button">
+                                    Contattaci
                                 </button>
                                 <span>oppure <a href="#free" class="blue-link"> acquista ora</a></span>
                             </div>
@@ -434,7 +445,7 @@
                         </div>
                         <div>
                             <p id="col-100-bottom-text">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
-                            <button class="blue-button absolute-button"> <a href="#contatti">Contatta l'ufficio vendite</a></button>
+                            <button type="button" onclick="location.href='#contatti'" class="blue-button absolute-button"> Contatta l'ufficio vendite</button>
                         </div>
                     </div>  
                 </div>
@@ -452,7 +463,7 @@
                         <div class="second-sec-col-40-content">
                             <h3>Entra in contatto con un partner Dropbox</h3>
                             <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
-                            <button class="white-button border-button"> <a href="#contatti">Trova un partner</a></button>
+                            <button type="button" onclick="location.href='#contatti'" class="white-button border-button">Trova un partner</button>
                         </div>
                     </div>
                 </div>
@@ -614,7 +625,7 @@
                     </div>
                     <div class="sixth-sec-col-50 sixth-sec-right">
                         <div class="sixth-sec-right-content">
-                            <button class="white-button" id="free-trial-button"> <a href="#offerte">Inizia la tua prova gratuita</a></button>
+                            <button type="button" onclick="location.href='#offerte'" class="white-button" id="free-trial-button">Inizia la tua prova gratuita</button>
                         </div>
                     </div>
                 </div>
@@ -637,26 +648,32 @@
                             <span>
                                 <i class="fas fa-chevron-down" style="color:#000000"></i>
                             </span>
-                                <div class="faq-dropdown-content">
-                                    <span> <i class="fas fa-angle-right" style="color:#000000"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. At dolore porro minus!</span>
-                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ad, delectus nihil repellendus recusandae natus debitis eos laboriosam illo tempora temporibus. Commodi assumenda impedit voluptatibus?</span>
-                                </div>
+                            <div class="faq-dropdown-content">
+                                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At dolore porro minus!</span>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ad, delectus nihil repellendus recusandae natus debitis eos laboriosam illo tempora temporibus. Commodi assumenda impedit voluptatibus?</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="seventh-sec-col-100">
+                    <div class="seventh-sec-col-100 faq-dropdown">
                         <div class="seventh-sec-content">
                             <span>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span>
                             <span>
                                 <i class="fas fa-chevron-down" style="color:#000000"></i>
                             </span>
+                            <div class="faq-dropdown-content">
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ad, delectus nihil repellendus recusandae natus debitis eos laboriosam illo tempora temporibus. Commodi assumenda impedit voluptatibus?</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="seventh-sec-col-100">
+                    <div class="seventh-sec-col-100 faq-dropdown">
                         <div class="seventh-sec-content">
                             <span>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span>
                             <span>
                                 <i class="fas fa-chevron-down" style="color:#000000"></i>
                             </span>
+                            <div class="faq-dropdown-content">
+                                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At dolore porro minus!</span>
+                            </div>
                         </div>
                     </div>
                 </div>
