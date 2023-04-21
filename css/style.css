@@ -6,7 +6,7 @@
 }
 
 body{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -90,6 +90,11 @@ a{
     margin-top: 70px;
 }
 
+.jumb-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .jumb-row{
     display: flex;
     flex-wrap: wrap;
@@ -113,6 +118,8 @@ a{
 /* STILE CONTENUTO JUMBOTRON */
 #main-title{
     font-size: 80px;
+    padding-right: 150px;
+    font-weight: 800;
 }
 
 .jumb-main-text{
@@ -421,6 +428,10 @@ a{
 
 #florida-uni{
     background-color: #0093CE;
+}
+
+#florida{
+    height: 15%;
 }
 
 #topps{
