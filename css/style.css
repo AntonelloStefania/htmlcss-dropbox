@@ -29,9 +29,7 @@ a{
 .blue-button{
     background-color: #0061FF;
     color: white;
-    padding: 10px 15px;
     border:1px solid #0061FF;
-    font-size: 19px;
 }
 
 .blue-link{
@@ -42,17 +40,51 @@ a{
 .white-button{
     background-color: white;
     color: black;
-    padding: 10px 15px;
     border: 1px solid white;
+}
+
+.blue-button, .white-button{
     font-size: 19px;
+    padding: 10px 15px;
+}
+
+.third-sec-col-100-container h2, .first-sec-form h2{
+    font-size: 50px;
+}
+
+.third-sec-col-33-text h3, #seventh-sec-title{
+    font-size: 30px;
+}
+
+.h-row, .jumb-col-100, #jumb-img, .first-sec-col-100, .upper-icon, #partner-img, .third-sec-col-100, .business-img, .fifth-sec-row, .sixth-sec-container, .seventh-sec-col-100, .footer-col-100{
+    width: 100%;
+}
+
+.jumb-row, .first-sec-row, .third-sec-row, .fifth-sec-subrow, .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h-row, .h-right, .first-sec-col-33-main, .service li, .hot-stuff li, .second-sec-row, .fifth-sec-row, .fifth-sec-subcol-50, .sixth-sec-container, .seventh-sec-row, .seventh-sec-content{
+    display: flex;
+}
+
+.hot-stuff ul, .third-sec-col-100, .footer-col-content ul{
+    margin-bottom: 80px;
+}
+
+.footer-col-20, .footer-row, .fifth-sec-subrow{
+    height: 100%;
+}
+
+.first-sec-form h2, .third-sec-col-33-text h3{
+    margin-bottom: 30px;
 }
 /* FINE UTILITIES */
 /* HEADER LAYOUT */
 .h-row{
     background-color: white;
     height: 70px;
-    width: 100%;
-    display: flex;
     align-items: center;
     position: fixed;
     top: 0;
@@ -79,7 +111,6 @@ a{
 }
 
 .h-right{
-    display: flex;
     justify-content: right;
 }
 
@@ -96,13 +127,7 @@ a{
 }
 
 .jumb-row{
-    display: flex;
-    flex-wrap: wrap;
     padding-top: 60px;
-}
-
-.jumb-col-100{
-    width: 100%;
 }
 
 .jumb-col-30{
@@ -137,7 +162,6 @@ a{
 }
 
 #jumb-img{
-    width: 100%;
     position: relative;
     top: 70px;
 }
@@ -150,11 +174,9 @@ a{
 
 .first-sec-row{
     margin-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
 }
+
 .first-sec-col-33-main{
-    display: flex;
     flex-direction: column;
 }
 .first-sec-col-33{
@@ -163,7 +185,6 @@ a{
 }
 
 .first-sec-col-100{
-    width: 100%;
     margin: 10px 30px;
     line-height: 2;
     position:relative;
@@ -180,17 +201,11 @@ a{
     margin-bottom:35px;
 }
 
-.first-sec-form h2{
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
 .first-sec-form span{
     margin:0 30px 30px 0;
 }
 
 .upper-icon{
-    width: 100%;
     display: block;
     text-align: center;
     border-bottom: 1px solid #D0D0D3;
@@ -229,7 +244,6 @@ a{
     padding: 0 30px;
 }
 .service li{
-    display: flex;
     margin-bottom: 15px;
 }
 
@@ -256,14 +270,6 @@ a{
     margin-top: 30px;
 }
 
-.hot-stuff li{
-    display: flex;
-}
-
-.hot-stuff ul{
-    margin-bottom: 80px;
-}
-
 #col-100-bottom-text{
     margin-bottom: 50px;
 }
@@ -278,7 +284,6 @@ a{
 /* FINE STILE CONTENUTO PRIMA SEZIONE */
 /* LAYOUT SECONDA SEZIONE */
 .second-sec-row{
-    display: flex;
     padding: 0 10px;
     margin-top: 150px;
 }
@@ -292,10 +297,6 @@ a{
 }
 /* FINE LAYOUT SECONDA SEZIONE */
 /* STILE CONTENUTO SECONDA SEZIONE */
-#partner-img{
-    width: 100%;
-}
-
 .second-sec-col-40-content{
     padding-top: 100px;
     padding-left: 50px;
@@ -315,14 +316,7 @@ a{
 /* FINE STILE CONTENUTO SECONDA SEZIONE */
 /* LAYOUT TERZA SEZIONE */
 .third-sec-row{
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 150px;
-}
-
-.third-sec-col-100{
-    width: 100%;
-    margin-bottom: 80px;
 }
 
 .third-sec-col-33{
@@ -332,18 +326,9 @@ a{
 /* FINE LAYOUT TERZA SEZIONE */
 /* STILE CONTENUTO TERZA SEZIONE */
 .business-img{
-    width: 100%;
     margin-bottom: 20px;
 }
 
-.third-sec-col-100-container h2{
-    font-size: 50px;
-}
-
-.third-sec-col-33-text h3{
-    margin-bottom: 30px;
-    font-size: 30px;
-}
 /* FINE STILE CONTENUTO TERZA SEZIONE */
 /* LAYOUT QUARTA SEZIONE */
 .fourth-sec-row{
@@ -362,17 +347,6 @@ a{
 
 /* FINE STILE CONTENUTO QUARTA SEZIONE */
 /* LAYOUT QUINTA SEZIONE */
-.fifth-sec-row{
-    width: 100%;
-    display: flex;
-}
-
-.fifth-sec-subrow{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-}
-
 .fifth-sec-col-33{
     width: calc(100% / 3);
     height: calc(100vw / 3);
@@ -383,7 +357,6 @@ a{
 .fifth-sec-subcol-50{
     width:calc(100% / 2);
     height: calc(100% / 2);
-    display: flex;
     justify-content: center;
     align-content: center;
     position: relative;
@@ -459,11 +432,6 @@ a{
     background-color: #B4D0E7;
 }
 
-.sixth-sec-container{
-    width: 100%;
-    display: flex;
-}
-
 .sixth-sec-col-50{
     width: 50%;
     margin: 100px 0;
@@ -491,27 +459,21 @@ a{
 
 /* FINE STILE CONTENUTO SESTA SEZIONE */
 /* LAYOUT SETTIMA SEZIONE */
-
-
 .seventh-sec-row{
-    display: flex;
     flex-direction: column;
     margin-bottom: 150px;
 }
 
 .seventh-sec-col-100{
-    width: 100%;
     border-bottom: 1px solid #9A9A9A;
 }
 /* FINE LAYOUT SETTIMA SEZIONE */
 /* STILE CONTENUTO SETTIMA SEZIONE */
 #seventh-sec-title{
     margin:150px 0 60px;
-    font-size: 30px;
 }
 
 .seventh-sec-content{
-    display: flex;
     justify-content: space-between;
     padding-right: 30px;
     margin: 30px 0;
@@ -528,20 +490,12 @@ footer{
     margin: 0 auto;
 }
 
-.footer-row{
-    display: flex;
-    height: 100%;
-    flex-wrap: wrap;
-}
-
 .footer-col-20{
     width:20%;
-    height: 100%;
     color: white;
 }
 
 .footer-col-100{
-    width: 100%;
     margin: 0 0 40px 0;
 }
 /* FINE LAYOUT FOOTER */
@@ -553,12 +507,11 @@ footer{
 
 .footer-col-content ul{
     line-height: 2;
-    margin-bottom: 80px;
 }
 
 .footer-col-content hr{
     width:130px;
-    border: 1px solid #9A9A9A;
+    border: 1px solid #fff;
 }
 
 .region-selector{
